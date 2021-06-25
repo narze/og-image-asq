@@ -131,6 +131,7 @@ function getCss(theme: string, fontSize: string) {
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
+        line-height: 120%;
 
         text-shadow: 2px 2px 4px white;
     }
